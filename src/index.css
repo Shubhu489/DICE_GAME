@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.div{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.div-logo img{
+  height: 100px;
+  width: 140px;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+#btn{
+  height: 40px;
+  background-color: rgba(255, 0, 0, 0.612);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-top: 10px;
+  
+}
+
+#content-box{
+  margin-left: 230px;
+height: 390px;
+/* background-color: red; */
+width: 300px;
+}
+#content-box h1{
+  font-size: 50px;
+}
+
+#content-box p{
+  font-size: 15px;
+}
+
+#button-div{
+  display: flex;
+  gap: 10px;
+}
+#shop{
+  background-color: rgba(255, 0, 0, 0.663);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#red-shoes{
+  align-items: end;
+  margin-left: 650px;
+  margin-top: -400px;
+}
+#red-shoes img{
+  height: 400px;
+  width: 450px;
+}

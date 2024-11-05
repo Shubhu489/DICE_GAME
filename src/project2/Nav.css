@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.container img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+   
+}
+.list:hover{
+   color: teal;
+   
+}
+
+.contact{
+    margin-left: 80px;
+margin-top: 40px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    width: 300px;
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+    margin-top: 60px;
+   
+}
+.btn button{
+    background-color: black;
+    color: white;
+}
+.btndiv{
+    margin-left: 75px;
+}
+.btn2{
+    width: 280px;
+    margin-left: 83 px;
+    margin-top: 30px;
+}
+.form-controller {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    margin-left: 70px;
+    gap: 20px;
+}
+
+.name-box, .mail-box, .msg-box {
+    position: relative;
+}
+
+.name-box input,
+.mail-box input,
+.msg-box input {
+    height: 25px;
+    width: 280px;
+    padding: 0 15px;
+}
+
+.name-box label,
+.mail-box label,
+.msg-box label {
+    position: absolute;
+    top: -12px;
+    left: 15px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.msg-box input {
+    height: 125px;
+}
+
+#form-button{
+    width: 150px;
+    height: 40px;
+    margin-left: 140px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: -450px;
+    margin-left: 600px;
+}
+.image img{
+    height: 500px;
+    width: 500px;
+}
